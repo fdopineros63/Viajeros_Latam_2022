@@ -39,6 +39,10 @@ El cuaderno, en su sección 18.18, comprueba filtros, indicadores y cinco gráfi
 
 La paleta es propia del proyecto, inspirada en el uso de azules y blancos en comunicación aeronáutica, sin reproducir la marca de una compañía. Referencias: [paleta corporativa de Airbus](https://www.brand.airbus.com/en/asset-library/colours) e [historia de la bandera de la OACI](https://www.icao.int/sites/default/files/postalhistory/the_icao_flag.htm).
 
-## Binder (pendiente de publicación y prueba)
+## Publicación y acceso en Binder
 
-`start` y `jupyter_server_config.py` preparan el arranque de Dash detrás del proxy de Jupyter. Una vez que **los archivos vigentes** estén en la raíz de un repositorio público de GitHub, el enlace previsto usará el sufijo `?urlpath=viajeros/`. Hasta comprobarlo en un repositorio real, no se debe presentar ese enlace como funcionando. No ejecute manualmente `start` al abrir el dashboard en su computador.
+Repositorio público: https://github.com/fdopineros63/Viajeros_Latam_2022
+
+Dashboard: https://mybinder.org/v2/gh/fdopineros63/Viajeros_Latam_2022/HEAD?urlpath=viajeros/
+
+El 24 de septiembre de 2026 se comprobó en un navegador el arranque de Binder: se visualizaron las cuatro tarjetas, las cinco gráficas y el panel fijo con 2.500 registros iniciales. `start` y `jupyter_server_config.py` configuran el arranque de Dash detrás del proxy de Jupyter. Binder puede tardar varios minutos en crear o iniciar el entorno. El archivo `enlaces_publicacion.txt` contiene las dos direcciones solicitadas para la entrega. No ejecute manualmente `start` al abrir el dashboard en su computador.
