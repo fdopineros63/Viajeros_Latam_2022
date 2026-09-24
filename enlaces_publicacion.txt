@@ -1,0 +1,2 @@
+Repositorio GitHub: https://github.com/fdopineros63/Viajeros_Latam_2022
+Dashboard Binder: https://mybinder.org/v2/gh/fdopineros63/Viajeros_Latam_2022/HEAD?urlpath=viajeros/
