@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+# Jupyter encontrará la configuración del proxy en esta carpeta.
+export JUPYTER_CONFIG_DIR="$(pwd)"
+exec "$@"
